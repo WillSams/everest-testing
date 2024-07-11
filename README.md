@@ -23,7 +23,7 @@ To enjoy more EVerest hype, [watch Dr. Marco Möller of PIONIX GmbH more details
 
 ## Use Cases and Applications - [video](https://www.youtube.com/watch?v=OJ6kjHRPkyY)
 
-- **Commercial Charging Networks:** Deployment in public and private charging networks to provide reliable and efficient charging services.
+- **Commercial Charging Networks:** Deployment in public and private charging networks to provide reliablegit and efficient charging services.
 - **Residential Charging Solutions:** Integration with home energy management systems to optimize charging based on energy availability and cost.
 - **Fleet Management:** Support for electric vehicle fleets by providing centralized management and control of charging operations.
 
@@ -49,7 +49,13 @@ sudo bash -c "apt update && sudo apt install -y git rsync wget cmake doxygen gra
 
 Execute the following in your terminal:
 
+
+
 ```bash
+# Clone the latest EVerest Dev environment repo
+git clone https://github.com/EVerest/everest-dev-environment
+rm -rf everest-dev-environment/.git
+
 # If the concept of venv is new to you, please read:
 #   https://docs.python.org/3/library/venv.html
 python -m venv venv
@@ -71,15 +77,9 @@ npm i                    # install the packages needed for project
 
 ## Development
 
+todo: test this by just installing the `edm` package via pip.
+
 ## Testing
 
-## Updating
 
-The current version of EVerest Development Environment (edm) in this repository is [version 0.6.2](https://github.com/EVerest/everest-dev-environment/releases/tag/v0.6.2) released in July of 2024.  You can replace with a newer version simply by deleting the `everest-dev-environment` folder and downloading from GitHub.  You can do the following to replace with the latest version:
-
-```bash
-rm -rf everest-dev-environment
-git clone https://github.com/EVerest/everest-dev-environment
-rm -rf everest-dev-environment/.git
-```
 
